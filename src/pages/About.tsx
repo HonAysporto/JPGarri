@@ -102,7 +102,8 @@ const About = () => {
             <div className="rounded-xl overflow-hidden shadow-lg">
               <iframe
                 title="Our Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..."
+                
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31564.817566571397!2d4.544656499999999!3d8.537944049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1036528d9c605049%3A0xf59fa28215d71df1!2sIlorin%2C%20Kwara!5e0!3m2!1sen!2sng!4v1745277234302!5m2!1sen!2sng" 
                 className="w-full h-64 border-0"
                 allowFullScreen
                 loading="lazy"
@@ -119,3 +120,4 @@ const About = () => {
 };
 
 export default About;
+
