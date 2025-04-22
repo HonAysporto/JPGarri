@@ -94,13 +94,14 @@ const Home: React.FC = () => {
 
   return (
     <>
+    <Header />
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="min-h-screen bg-gray-50 flex flex-col items-center"
       >
-        <Header />
+        
         {/* Hero Branding */}
         <div className="w-full py-8 px-4 text-center bg-white rounded-b-xl shadow-sm">
           <motion.h1
