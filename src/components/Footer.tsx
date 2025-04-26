@@ -26,8 +26,8 @@ const Footer: React.FC = () => {
         >
           <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
           <ul className="space-y-2 text-sm text-gray-200">
-            <li className="flex items-center gap-2"><Phone size={16} /> +234 812 345 6789</li>
-            <li className="flex items-center gap-2"><Mail size={16} /> info@jpgarri.com</li>
+            <li className="flex items-center gap-2"><Phone size={16} /> +234 703 551 2754</li>
+            <li className="flex items-center gap-2"><Mail size={16} /> ekundayoj13@gmail.com</li>
           </ul>
         </motion.div>
 

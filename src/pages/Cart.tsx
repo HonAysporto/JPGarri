@@ -64,7 +64,7 @@ const Cart: React.FC = () => {
   // Function to open WhatsApp with the order message
   const handleWhatsAppRedirect = () => {
     const message = generateWhatsAppMessage();
-    const phoneNumber = "2348146451247"; // Replace with the WhatsApp phone number (including country code)
+    const phoneNumber = "+2347035512754";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     console.log(message);
     window.open(whatsappUrl, "_blank");
